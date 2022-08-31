@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+            minWidth="-Infinity" prefHeight="612.0" prefWidth="976.0"
+            xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.example.maven_javafx_demo1.view.ViewController">
+    <children>
+        <SplitPane dividerPositions="0.23716632443531827" prefHeight="612.0" prefWidth="976.0">
+            <items>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                    <children>
+                        <ListView fx:id="listView" layoutX="13.0" layoutY="14.0" prefHeight="584.0" prefWidth="200.0" />
+                    </children>
+                </AnchorPane>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                    <children>
+                        <TableView fx:id="tableView" layoutX="14.0" layoutY="14.0" prefHeight="584.0" prefWidth="709.0">
+                            <columns>
+                                <TableColumn prefWidth="75.0" text="编号" />
+                                <TableColumn prefWidth="75.0" text="名称" />
+                                <TableColumn prefWidth="75.0" text="图片" />
+                                <TableColumn prefWidth="75.0" text="价格" />
+
+                            </columns>
+                        </TableView>
+                    </children>
+                </AnchorPane>
+            </items>
+        </SplitPane>
+    </children>
+</AnchorPane>

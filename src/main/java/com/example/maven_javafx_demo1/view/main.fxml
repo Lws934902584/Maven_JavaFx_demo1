@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="635.0" prefWidth="1036.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.maven_javafx_demo1.view.MainController">
+    <children>
+        <ImageView fx:id="myimageview" fitHeight="150.0" fitWidth="200.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+        <Label layoutX="91.0" layoutY="164.0" text="头像" />
+        <Button fx:id="button1" layoutY="206.0" mnemonicParsing="false" prefHeight="96.0" prefWidth="214.0" text="订单" />
+        <Button fx:id="button2" layoutY="300.0" mnemonicParsing="false" prefHeight="96.0" prefWidth="214.0" text="店铺" />
+        <Button fx:id="button3" layoutY="396.0" mnemonicParsing="false" prefHeight="96.0" prefWidth="214.0" text="临时会话" />
+        <Label layoutX="251.0" layoutY="77.0" prefHeight="36.0" prefWidth="63.0" text="菜品：" />
+        <ImageView fitHeight="83.0" fitWidth="152.0" layoutX="331.0" layoutY="56.0" pickOnBounds="true" preserveRatio="true" />
+        <ImageView fitHeight="83.0" fitWidth="152.0" layoutX="331.0" layoutY="235.0" pickOnBounds="true" preserveRatio="true" />
+        <Button fx:id="button4" layoutX="366.0" layoutY="158.0" mnemonicParsing="false" onAction="#show1" prefHeight="36.0" prefWidth="96.0" text="红烧肉" />
+        <Button fx:id="button5" layoutX="370.0" layoutY="338.0" mnemonicParsing="false" onAction="#show2" prefHeight="36.0" prefWidth="96.0" text="蒜香排骨" />
+        <ImageView fitHeight="83.0" fitWidth="152.0" layoutX="338.0" layoutY="409.0" pickOnBounds="true" preserveRatio="true" />
+        <Button fx:id="button6" layoutX="370.0" layoutY="512.0" mnemonicParsing="false" onAction="#show3" prefHeight="36.0" prefWidth="96.0" text="炒青菜" />
+        <Label fx:id="label3" layoutX="631.0" layoutY="102.0" prefHeight="43.0" prefWidth="83.0" text="价格：" />
+        <Label fx:id="label1" layoutX="799.0" layoutY="112.0" text="    ¥" />
+        <Label fx:id="label4" layoutX="631.0" layoutY="241.0" prefHeight="36.0" prefWidth="56.0" text="销量：" />
+        <Label fx:id="label2" layoutX="792.0" layoutY="247.0" text="    份" />
+    </children>
+</AnchorPane>

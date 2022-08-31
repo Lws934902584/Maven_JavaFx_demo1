@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="choicebox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="646.0" prefWidth="862.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.maven_javafx_demo1.test2.Controller">
+    <children>
+        <ImageView fx:id="myImageView" fitHeight="254.0" fitWidth="292.0" layoutX="255.0" layoutY="127.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@lightbulb_01.png" />
+         </image></ImageView>
+        <Label fx:id="myLabel" layoutX="260.0" layoutY="361.0" prefHeight="121.0" prefWidth="270.0" text="OFF">
+            <font>
+                <Font size="34.0" />
+            </font>
+        </Label>
+        <CheckBox fx:id="myChoicebox" layoutX="363.0" layoutY="524.0" mnemonicParsing="false" onAction="#change" text="ON/OFF" />
+    </children>
+</AnchorPane>
